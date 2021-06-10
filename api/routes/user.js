@@ -1,4 +1,3 @@
-const env = require('../libs/env');
 const { authClient } = require('../libs/auth');
 
 module.exports = {
