@@ -1,9 +1,9 @@
-name: Npm deployment
+name: Deploy
 
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   Deploy:
@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Test
-      run: make github-action-test
+      run: make github-init
 
     - name: Deploy
       env:
