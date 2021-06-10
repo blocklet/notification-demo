@@ -10,7 +10,7 @@ const wallet = fromSecretKey(process.env.BLOCKLET_APP_SK, WalletType({ role: typ
 
 const authenticator = new WalletAuthenticator({
   appInfo: ({ baseUrl }) => ({
-    icon: `${baseUrl}/logo192.png`,
+    icon: `${baseUrl}/logo.png`,
     link: baseUrl,
   }),
 });
