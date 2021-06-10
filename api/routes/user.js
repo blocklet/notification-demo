@@ -1,7 +1,5 @@
 const env = require('../libs/env');
-const AuthService = require('@blocklet/sdk/service/auth');
-
-const authClient = new AuthService();
+const { authClient } = require('../libs/auth');
 
 module.exports = {
   init(app) {

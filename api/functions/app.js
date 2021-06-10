@@ -53,6 +53,7 @@ server.use((req, res, next) => {
 const router = express.Router();
 
 require('../routes/user').init(router);
+require('../routes/notification').init(router);
 
 if (isProduction) {
   server.use(compression());
