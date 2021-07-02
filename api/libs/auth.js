@@ -8,12 +8,7 @@ const { WalletHandlers } = require('@arcblock/did-auth');
 
 const wallet = fromSecretKey(process.env.BLOCKLET_APP_SK, WalletType({ role: types.RoleType.ROLE_APPLICATION }));
 
-const authenticator = new WalletAuthenticator({
-  appInfo: ({ baseUrl }) => ({
-    icon: `${baseUrl}/logo.png`,
-    link: baseUrl,
-  }),
-});
+const authenticator = new WalletAuthenticator();
 
 const handlers = new WalletHandlers({
   authenticator,
