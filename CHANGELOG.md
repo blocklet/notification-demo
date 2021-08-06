@@ -1,3 +1,7 @@
+## 0.5.1 (August 06, 2021)
+
+- upgrade dependencies
+
 ## 0.5.0 (July 03, 2021)
 
 
