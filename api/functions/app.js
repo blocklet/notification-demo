@@ -7,6 +7,8 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const fallback = require('express-history-api-fallback');
+const { handlers } = require('../libs/auth');
+const createNotificationAuth = require('../routes/auth/notification');
 
 const isProduction = process.env.NODE_ENV !== 'development'
 
@@ -54,6 +56,8 @@ const router = express.Router();
 
 require('../routes/user').init(router);
 require('../routes/notification').init(router);
+handlers.attach(Object.assign({ app: router }, createNotificationAuth()));
+
 
 if (isProduction) {
   server.use(compression());

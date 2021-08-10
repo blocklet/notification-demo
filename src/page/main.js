@@ -12,6 +12,7 @@ import DidAddress from '@arcblock/did-react/lib/Address';
 
 import { useSessionContext } from '../libs/session';
 import SendButton from '../components/send';
+import SendWithoutLogin from '../components/send-without-login';
 
 const formatToDatetime = (date) => {
   if (!date) {
@@ -72,9 +73,14 @@ export default function Main() {
       </Media>
 
       {!user && (
-        <div style={{ textAlign: 'center', marginTop: '10vh', fontSize: 18, color: '#888' }}>
-          You are not logged in yet
-        </div>
+        <>
+          <div style={{ textAlign: 'center', marginTop: '10vh', fontSize: 18, color: '#888' }}>
+            You are not logged in yet
+          </div>
+          <div style={{ textAlign: 'center', marginTop: 24 }}>
+            <SendWithoutLogin>Send text without login</SendWithoutLogin>
+          </div>
+        </>
       )}
 
       {!!user && (

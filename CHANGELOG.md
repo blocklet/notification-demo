@@ -1,3 +1,7 @@
+## 0.6.0 (August 10, 2021)
+
+- send notification without login
+
 ## 0.5.1 (August 06, 2021)
 
 - upgrade dependencies
