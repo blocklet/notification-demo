@@ -1,3 +1,7 @@
+## 0.6.1 (August 23, 2021)
+
+- chore: replace did-react with did-connect
+
 ## 0.6.0 (August 10, 2021)
 
 - send notification without login
