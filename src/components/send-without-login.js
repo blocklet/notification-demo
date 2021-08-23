@@ -2,7 +2,7 @@
 /* eslint-disable arrow-parens */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import Auth from '@arcblock/did-react/lib/Auth';
+import DidConnect from '@arcblock/did-connect/lib/Connect';
 
 import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
@@ -30,7 +30,7 @@ export default function SendWithoutLogin({ children }) {
           disableBackdropClick
           disableEscapeKeyDown>
           <DialogContent>
-            <Auth
+            <DidConnect
               action="notification"
               checkFn={api.get}
               checkTimeout={10 * 60 * 1000}
