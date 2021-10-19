@@ -10,7 +10,7 @@ build:
 
 bundle:
 	@echo "Bundling the software..."
-	@npm run bundle
+	@yarn bundle
 
 github-init:
 	@make dep
