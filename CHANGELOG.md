@@ -1,3 +1,7 @@
+## 0.6.3 (October 28, 2021)
+
+chore: bump deps to latest
+
 ## 0.6.2 (十月 19, 2021)
 
 - chore: upgrade blocklet/sdk WalletHandles
