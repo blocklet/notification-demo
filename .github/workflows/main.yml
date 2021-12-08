@@ -26,6 +26,6 @@ jobs:
         with:
           skip-upload: false
           bundle-command: yarn release
-          registry-endpoint: ${{ secrets.STAGING_REGISTRY }}
-          developer-sk: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
+          store-endpoint: ${{ secrets.STORE_ENDPOINT_DEV }}
+          store-access-token: ${{ secrets.STORE_ACCESS_TOKEN_DEV }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
