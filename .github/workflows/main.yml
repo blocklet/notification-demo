@@ -22,7 +22,7 @@ jobs:
         run: make github-init
 
       - name: Blocklet workflow
-        uses: blocklet/action-workflow@v1
+        uses: blocklet/action-workflow@v1.1
         with:
           skip-upload: false
           bundle-command: yarn release
