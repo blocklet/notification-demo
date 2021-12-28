@@ -1,3 +1,7 @@
+## 0.6.10 (December 28, 2021)
+
+- docs: update docs (abtnode rebranding)
+
 ## 0.6.9 (十二月 08, 2021)
 
 - chore: update action-workflow
