@@ -2,6 +2,10 @@
 
 Blocklet that demos various kinds of notifications blocklet can send to DID Wallet user.
 
+## Launch on Blocklet Server
+
+[![Launch on Blocklet Server](https://assets.arcblock.io/icons/launch_on_blocklet_server.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fnotification-demo%2Freleases%2Fdownload%2Fv0.6.10%2Fblocklet.json)
+
 ## Run and debug in local
 
 ```shell
