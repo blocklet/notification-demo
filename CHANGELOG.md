@@ -1,3 +1,7 @@
+## 0.6.11 (January 29, 2022)
+
+- chore: fix did-connect broken style
+
 ## 0.6.10 (December 28, 2021)
 
 - docs: update docs (abtnode rebranding)
