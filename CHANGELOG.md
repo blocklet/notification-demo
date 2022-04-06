@@ -1,3 +1,8 @@
+## 0.6.12 (四月 06, 2022)
+
+- chore: deps
+- chore: remove getWebWalletUrl 
+
 ## 0.6.11 (January 29, 2022)
 
 - chore: fix did-connect broken style
