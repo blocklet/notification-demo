@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import styled from 'styled-components';
+import { styled } from '@arcblock/ux/lib/Theme';
 import dayjs from 'dayjs';
 
-import Avatar from '@material-ui/core/Avatar';
+import Avatar from '@mui/material/Avatar';
 
 import InfoRow from '@arcblock/ux/lib/InfoRow';
 import Button from '@arcblock/ux/lib/Button';
@@ -114,7 +114,7 @@ export default function Main() {
   );
 }
 
-const Container = styled.div`
+const Container = styled('div')`
   max-width: 600px;
   margin: 0 auto;
   padding: 0 10px;
@@ -125,7 +125,7 @@ const Container = styled.div`
   }
 `;
 
-const Media = styled.div`
+const Media = styled('div')`
   display: flex;
   justify-content: space-between;
   .left {
