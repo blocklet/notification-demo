@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import Button from '@arcblock/ux/lib/Button';
 
 export default function NotificationButton({ type, data, actions, children }) {
