@@ -1,3 +1,7 @@
+## 0.6.14 (October 21, 2022)
+
+- chore: upgrade to react 18 & mui v5
+
 ## 0.6.13 (June 27, 2022)
 
 - fix: resize the logo
@@ -6,7 +10,7 @@
 ## 0.6.12 (四月 06, 2022)
 
 - chore: deps
-- chore: remove getWebWalletUrl 
+- chore: remove getWebWalletUrl
 
 ## 0.6.11 (January 29, 2022)
 
