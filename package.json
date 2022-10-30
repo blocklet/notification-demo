@@ -1,6 +1,6 @@
 {
   "name": "notification-demo",
-  "version": "0.6.14",
+  "version": "0.6.15",
   "main": "index.js",
   "author": "ArcBlock",
   "license": "MIT",
@@ -19,13 +19,13 @@
     "coverage": "npm run test -- --coverage"
   },
   "dependencies": {
-    "@arcblock/did": "^1.17.23",
-    "@arcblock/did-auth": "^1.17.23",
+    "@arcblock/did": "^1.18.4",
+    "@arcblock/did-auth": "^1.18.4",
     "@arcblock/did-auth-storage-nedb": "^1.7.1",
-    "@arcblock/did-connect": "^2.4.47",
-    "@arcblock/did-util": "^1.17.23",
-    "@arcblock/ux": "^2.4.47",
-    "@arcblock/vc": "^1.17.23",
+    "@arcblock/did-connect": "^2.4.48",
+    "@arcblock/did-util": "^1.18.4",
+    "@arcblock/ux": "^2.4.48",
+    "@arcblock/vc": "^1.18.4",
     "@blocklet/sdk": "^1.8.30",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",

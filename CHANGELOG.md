@@ -1,3 +1,7 @@
+## 0.6.15 (October 30, 2022)
+
+- [skip ci] upgrade dependencies
+
 ## 0.6.14 (October 21, 2022)
 
 - chore: upgrade to react 18 & mui v5
