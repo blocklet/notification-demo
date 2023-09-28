@@ -1,3 +1,7 @@
+## 0.6.16 (September 28, 2023)
+
+- chore: update blocklet.yml
+
 ## 0.6.15 (October 30, 2022)
 
 - [skip ci] upgrade dependencies
